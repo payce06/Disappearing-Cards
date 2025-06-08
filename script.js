@@ -25,3 +25,4 @@ function hideCard(card) {
 cards.forEach(card => {
     if (card) hideCard(card); // Only attach if the element exists
 });
+
