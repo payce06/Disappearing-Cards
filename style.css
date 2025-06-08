@@ -33,19 +33,3 @@ h1 {
     width: 300px;            
     margin-bottom: 20px;
 }
-
-button {
-    background-color: lightBlue;
-    color: black;
-    cursor: pointer;
-    border: 1px outset blue;
-    padding: 20px 20px;
-}
-  
-button:hover {
-    background-color: #45a049;
-}
-
-#resetBtn:hover {
-    background: #d32f2f;
-}
