@@ -15,13 +15,3 @@ document.getElementById("resetButton").addEventListener("click", function() {
         card.style.display = "inline-block";  // Reset display property to make all cards visible again
     });
 });
-
-function hideCard(card) {
-    card.addEventListener('click', function () {
-      this.style.display = "none";
-    });  
-}
-
-cards.forEach(card => {
-    if (card) hideCard(card); // Only attach if the element exists
-}); 
